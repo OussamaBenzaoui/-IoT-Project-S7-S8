@@ -37,4 +37,4 @@ In the begining our target was to make the communication between the esp 32 and 
 We just weld the component on the board and we add some conection : 
   Busy SX1262-> IO4 ESP 32 
   DIO1 SX1262-> IO12 ESP 32
-  
+  to 
