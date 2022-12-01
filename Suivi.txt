@@ -25,4 +25,6 @@ Communication distance is up to 7km.
 Maximum transmission power of 160mW.
 Issue : Testing electronic board with ESP32E and SX1262 and heltec board 
   code used : https://github.com/StuartsProjects/SX12XX-LoRa
-  testets
+  Module Nice RF : https://www.nicerf.com/products/detail/915mhz-lora-module-lora1262.html
+  The radiolib supporting the SX1262 : https://github.com/jgromes/RadioLib
+  
