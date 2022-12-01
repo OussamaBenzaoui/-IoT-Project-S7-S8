@@ -1,0 +1,16 @@
+RSSI
+The Received Signal Strength Indication (RSSI) is the received signal power in milliwatts and is measured in dBm.
+
+This value can be used as a measurement of how well a receiver can “hear” a signal from a sender.
+
+"to see the image go to this link https://lora.readthedocs.io/en/latest/#:~:text=these%20regulatory%20bodies.-,RSSI,the%20better%20the%20signal%20is." 
+The RSSI is measured in dBm and is a negative value.
+
+The closer to 0 the better the signal is.
+
+Typical LoRa RSSI values are:
+
+RSSI minimum = -120 dBm.
+
+If RSSI=-30dBm: signal is strong.
+If RSSI=-120dBm: signal is weak.
