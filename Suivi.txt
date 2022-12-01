@@ -28,3 +28,4 @@ Issue : Testing electronic board with ESP32E and SX1262 and heltec board
   Module Nice RF : https://www.nicerf.com/products/detail/915mhz-lora-module-lora1262.html
   The radiolib supporting the SX1262 : https://github.com/jgromes/RadioLib
   
+In the begining our target was to make the communication between the esp 32 and RFM95 and also to mesure power consumption between (esp32 and ftd232) also (esp32 and rfm95) so ESP32 power consumption on sleep mode was around 60 mW and on active mode around 528mW, but the teacher gave us a new board where everything was already done (you will see it in the document "Doc") and for the board you can open it with Eagle IDE.
