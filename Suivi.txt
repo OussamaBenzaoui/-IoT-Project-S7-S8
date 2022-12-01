@@ -20,12 +20,21 @@ Issue:  Testing sleep mode of ESP32 via RFM95
   1st Solution :
     We will put esp on deep sleep mode , the tranceiver will send 52 consecutive packets one to wake the uC and the other to should contain the data
 
+--25/11/2022--
+
 we replace the RFM95 with NiceRF which is similar to the RFM95, it's a new generation of LoRa RF.
 Communication distance is up to 7km.
 Maximum transmission power of 160mW.
+--01/12/2022--
+
 Issue : Testing electronic board with ESP32E and SX1262 and heltec board 
   code used : https://github.com/StuartsProjects/SX12XX-LoRa
   Module Nice RF : https://www.nicerf.com/products/detail/915mhz-lora-module-lora1262.html
   The radiolib supporting the SX1262 : https://github.com/jgromes/RadioLib
   
 In the begining our target was to make the communication between the esp 32 and RFM95 and also to mesure power consumption between (esp32 and ftd232) also (esp32 and rfm95) so ESP32 power consumption on sleep mode was around 60 mW and on active mode around 528mW, but the teacher gave us a new board where everything was already done (you will see it in the document "Doc") and for the board you can open it with Eagle IDE.
+
+We just weld the component on the board and we add some conection : 
+  Busy SX1262-> IO4 ESP 32 
+  DIO1 SX1262-> IO12 ESP 32
+  
