@@ -40,3 +40,5 @@ We just weld the component on the board and we add some conection :
   Busy SX1262-> IO4 ESP 32 
   DIO1 SX1262-> IO12 ESP 32
   to 
+Now we want to mesure the power consumption of the SX126X into the deep sleep mode we should have a current around Microamps.
+So we delete the transistor Q1 and placed two wires on the Q1 port to mesure the current.
