@@ -6,7 +6,7 @@ Cellular networks also have the same problems of high power consumption and both
 
 LoRa (Long Range) is a wireless technology that offers long range, low power, and secure data transmission for machine to machine and Iot applications.in europe region it operates in the 868 MHZ band and according to thge official information, LoRa can acheive a distance of 715 km when there is no obstacle between the Node and Gateway.
 
-
+we installed the LoRa with sandeep mistry libraries on arduino Ide to easily send and receive LoRa packets with the ESP32
 
 
 Issue: Testing sleep mode of ESP32 via external button to WakeUp
@@ -14,7 +14,7 @@ Issue: Testing sleep mode of ESP32 via external button to WakeUp
   -Test example code : going to sleep mode via external button to WakeUp (code : https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)
 Issue:  Testing sleep mode of ESP32 via RFM95
   Sub-Issue: Tx/Rx in LoRa 
-            - Tranceiver: RFM95 / Receiver: Heltec  ESP32 (code:https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)
+            - Tranceiver: RFM95 / Receiver: Heltec  ESP32 //tranceiver is the heltec ESP32 and the receiver is the SX1262//(code:https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)
              Changes on receiver code : ss 18 , dio0 26
              - ESP32 wakeUp via dio0 (goes high when packet received )    
   1st Solution :
