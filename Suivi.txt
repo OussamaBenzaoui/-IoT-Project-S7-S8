@@ -19,7 +19,7 @@ Issue:  Testing sleep mode of ESP32 via RFM95
              - ESP32 wakeUp via dio0 (goes high when packet received )    
   1st Solution :
     We will put esp on deep sleep mode , the tranceiver will send 52 consecutive packets one to wake the uC and the other to should contain the data
-
+SPI FREQUENCY IS 16  MH
 --25/11/2022--
 
 we replace the RFM95 with NiceRF which is similar to the RFM95, it's a new generation of LoRa RF.
