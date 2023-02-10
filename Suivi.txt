@@ -44,3 +44,5 @@ Now we want to mesure the power consumption of the SX1262 into the deep sleep mo
 So we deleted the transistor Q1 and placed two wires on the Q1 ports that we delete to mesure the current.
 The role of the deep sleep mode:the module don't consume lots of current so if he receive a packet he will wake up so he will be on active mode and if he don't receive a packet he will switch on deep sleep mode.
 The current consumption of SX1262 on deep sleep mode is about 46uA
+we should reduce the power consumption with a radiolib command( https://jgromes.github.io/RadioLib/class_s_x1262.html#aa149463283dc9cddfec836ec6620d4dc )
+
