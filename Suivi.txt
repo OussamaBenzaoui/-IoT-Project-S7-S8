@@ -43,4 +43,4 @@ We just weld the component on the board and we add some conection :
 
 we should reduce the power consumption with a radiolib command( https://jgromes.github.io/RadioLib/class_s_x1262.html#aa149463283dc9cddfec836ec6620d4dc )
 
-
+!!!!! NOTE : the lora mosule has 2.1v on 3V3 without being connected
