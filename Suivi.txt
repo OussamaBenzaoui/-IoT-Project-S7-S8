@@ -44,3 +44,7 @@ We just weld the component on the board and we add some conection :
 we should reduce the power consumption with a radiolib command( https://jgromes.github.io/RadioLib/class_s_x1262.html#aa149463283dc9cddfec836ec6620d4dc )
 
 !!!!! NOTE : the lora mosule has 2.1v on 3V3 without being connected
+16/03/2023 : on a pris beardboard les problèmes qu'on a eu c'est que c'était pas fiable parfois sa s'initialisait et parfois non, bug possible: SX1262 RIP 
+on attend le changement de la puce pour vérifier si ça remarche.
+sur la carte UCA pareil elle n'est pas fiable problème de connection DIO1 avec l ESP: reset l'esp erreur sur l'esp
+bug possible: changer la pin sur l'esp/ moduule lora alimenter sans le 3,3 
