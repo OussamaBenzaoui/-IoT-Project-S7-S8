@@ -34,11 +34,11 @@ Preamble length: 8 symbols
 
 // SX1262 has the following connections:
 // NSS pin :  5
-// DIO1 pin:  12
-// DIO0 pin:  26
+// DIO1 pin:  16
 // NRST pin:  14
 // BUSY pin:  4
-SX1262 radio = new Module(5,12,14,4);
+// DIO0 pin:  26
+SX1262 radio = new Module(5,16,14,4);
 
 // or using RadioShield
 // https://github.com/jgromes/RadioShield
